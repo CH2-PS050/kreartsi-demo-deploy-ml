@@ -35,4 +35,3 @@ The application provides a `/predict` endpoint for predicting images using the t
 ## Contributions
 
 Contributions for improvements and enhancements to this application are highly welcomed. Please create issues or pull requests on this repository.
-Mention the license used by this project, for example, MIT, GPL, etc.
