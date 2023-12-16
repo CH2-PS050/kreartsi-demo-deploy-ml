@@ -68,7 +68,7 @@ def predict():
         confidence = np.max(predictions, axis=1)[0]
 
         # Mendefinisikan label kelas
-        labels = {0: 'Manusia', 1: 'AI'}
+        labels = {0: 'Human', 1: 'AI'}
         class_name = labels[class_idx[0]]
 
         # Opsional: Hapus file setelah diproses
