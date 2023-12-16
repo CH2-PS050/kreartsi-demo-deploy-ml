@@ -80,7 +80,7 @@ def predict():
                 "message": "Success predicting"
             },
             "data": {
-                "image_prediction": "Probably {class_name}",
+                "image_prediction": f"Probably {class_name}",
                 "confidence": float(confidence)
             }
         }), 200
