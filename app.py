@@ -17,7 +17,7 @@ if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
 # Muat model ML yang telah dilatih
-model = load_model('model/best_model_aiornot.h5')
+model = load_model('model\best_model_EfficientNetB1.h5')
 
 
 def allowed_file(filename):
